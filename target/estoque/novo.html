@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de produtos</title>
+</head>
+<body>
+    <h1>Inserir novo produto</h1>
+    <form name ="frmProduto" action="insert">
+        <table>
+            <tr>
+                <td><input type="text" name="codigo" placeholder="Codigo" class="caixa1"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="nome" placeholder="Nome" class="caixa1"></td>
+            </tr>
+                <td><input type="text" name="categoria" placeholder="Categoria" class="caixa1"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="valor" placeholder="Valor" class="caixa1"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="quantidade" placeholder="Quantidade" class="caixa1"></td>
+            </tr>
+        </table>
+        <input type="button" value= "Salvar" class="botao1" onclick="validar()">
+    </form>
+    <script src="scripts/validador.js"></script>
+</body>
+</html>
